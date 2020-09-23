@@ -1,3 +1,4 @@
+# Thread でのデータ競合を防ぐためにLockを使う
 from threading import Thread, Lock
 from time import sleep
 import random
